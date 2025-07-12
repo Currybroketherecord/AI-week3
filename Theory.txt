@@ -1,0 +1,32 @@
+
+
+### 🧠 1. Short Answer Questions
+
+#### Q1: **Primary Differences Between TensorFlow and PyTorch**
+- **Execution Model**:
+  - **PyTorch** uses *dynamic computation graphs* (eager execution), making it intuitive and Pythonic.
+  - **TensorFlow** traditionally used *static graphs*, but TensorFlow 2.x introduced eager execution to match PyTorch’s flexibility.
+- **Use Case Preference**:
+  - Choose **PyTorch** for **research and rapid prototyping**—its simplicity and debugging ease are ideal for experimentation.
+  - Choose **TensorFlow** for **production deployment**—it offers robust tools like TensorFlow Serving, Lite, and JS for scalable deployment.
+
+#### Q2: **Two Use Cases for Jupyter Notebooks in AI Development**
+- **Interactive Model Development**: Ideal for experimenting with ML/DL models using frameworks like PyTorch, TensorFlow, or Scikit-learn. You can visualize outputs, tweak hyperparameters, and iterate quickly.
+- **Data Exploration and Preprocessing**: Enables seamless integration of code, markdown, and visualizations for cleaning, transforming, and analyzing datasets before model training.
+
+#### Q3: **spaCy vs. Basic Python String Operations in NLP**
+- **spaCy** provides:
+  - **Tokenization**, **POS tagging**, **Named Entity Recognition**, and **Dependency Parsing** using trained statistical models.
+  - **Efficiency and accuracy** far beyond basic string methods like `.split()` or `.find()` which lack linguistic context.
+- In contrast, Python string operations are rule-based and limited to surface-level text manipulation.
+
+---
+
+### 🔍 2. Comparative Analysis: Scikit-learn vs. TensorFlow
+
+| Feature               | **Scikit-learn**                                      | **TensorFlow**                                         |
+|----------------------|--------------------------------------------------------|--------------------------------------------------------|
+| **Target Applications** | Classical ML: regression, classification, clustering | Deep learning: neural networks, image/NLP tasks        |
+| **Ease of Use**         | Very beginner-friendly; simple API and fast prototyping | Steeper learning curve; more complex but flexible      |
+| **Community Support**   | Strong in academia and traditional ML circles         | Massive global community; backed by Google; extensive resources |
+
